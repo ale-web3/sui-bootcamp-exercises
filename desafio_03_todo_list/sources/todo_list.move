@@ -1,4 +1,4 @@
-module todo_list::todo_list;
+module desafio_03_todo_list::todo_list;
 
 use std::string::String;
 
@@ -7,6 +7,7 @@ public struct TodoList has key, store {
     tasks: vector<String>
 }
 
+#[allow(lint(self_transfer))]
 public fun new(ctx: &mut TxContext) {
     let list = TodoList {
         id: object::new(ctx),

@@ -1,12 +1,9 @@
 [package]
-name = "todo_list"
+name = "desafio_01_ascii"
 edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
-
-[dependencies]
+version = "0.0.0"
 
 [addresses]
-todo_list = "0x0"
+desafio_01_ascii = "0x0"
 
-[dev-dependencies]
-
-[dev-addresses]
+[dependencies]
