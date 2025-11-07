@@ -15,3 +15,4 @@ public fun new(ctx: &mut TxContext) {
 
     transfer::transfer(list, tx_context::sender(ctx));
 }
+
